@@ -1,0 +1,176 @@
+.image2{
+   display: none;
+}
+
+
+body {
+  font-family: 'Alfa Slab One', cursive;
+
+}
+/* TITLE PAGE PLUS NAVBAR */
+
+.car-top {
+  text-align: center;
+  position: relative;
+
+}
+#navigation {
+    position: relative;
+    top: 0;
+
+    padding-left: 50px;
+    background-color: white;
+
+    font-size: 20px;
+}
+
+.menu {
+  width: 200px;
+
+}
+.title-img {
+position: static;
+width: 100%;
+
+
+}
+.logo {
+  height: 32vw;
+
+
+  position: absolute;
+
+}
+
+
+
+/* ABOUT */
+#about {
+  padding: 5% 14%;
+
+
+}
+.about-text {
+
+  margin: auto;
+  padding: 5% 0;
+  text-align: center;
+
+  font-size: 20px;
+}
+
+/* NEWS */
+
+
+
+.CSI {
+  padding:3%;
+  background-color: white;
+}
+
+#news {
+  background-color: black;
+
+}
+.videoWrapper{
+  position: relative;
+  padding: 35% 0;/* 16:9 */
+  height: 0;
+}
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.about-img {
+  height: 300px;
+  display: block;
+  margin: auto;
+  border-radius: 100%;
+}
+#gigs {
+  background-color: gray;
+  padding: 2%;
+
+}
+
+.gig-guide {
+  margin: 1%;
+  text-align: center;
+  background-color: gray;
+}
+
+td {
+
+  width: 150px;
+}
+
+#call2action {
+  text-align: center;
+  vertical-align: middle;
+  background-size: contain;
+  background-image: url("DF Endaweni Genius.jpg");
+  padding: 5% 0;
+  width: 100%; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+  color: white;
+
+}
+.c2aText {
+  color: white;
+  margin: auto;
+  vertical-align: middle;
+}
+.c2aText:hover {
+  color: black;
+}
+h1 {
+ vertical-align: middle;
+}
+
+#footer {
+  text-align: center;
+}
+.icons {
+  color: black;
+  font-size: 2rem;
+  padding: 5% 2% 2% 2%;
+}
+
+.icons:hover {
+  color: #ff1e56;
+}
+
+.c2aIMG {
+  width: 100%;
+}
+@media only screen and (max-width: 768px){
+     .image1{
+     display: none;
+   }
+
+   .image2{
+     display: block;
+   }
+}
+@media (max-width: 768px) {
+  #call2action {
+    background-image: url("DF Endaweni Genius M.jpg");
+
+    height: 50%;
+    width: 100%; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+  }
+}
+
+.sign {
+  font-family: roboto;
+  font-size: 15px;
+}
