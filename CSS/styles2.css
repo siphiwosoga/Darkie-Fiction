@@ -47,6 +47,8 @@ width: 100%;
 /* ABOUT */
 #about {
   padding: 5% 14%;
+  background-color: #17161E;
+  color: white;
 
 
 }
@@ -92,15 +94,17 @@ width: 100%;
   border-radius: 100%;
 }
 #gigs {
-  background-color: gray;
+  background-color: #17161E;
   padding: 2%;
-
+  color: white;
 }
-
+.CSI {
+  background-color: #FB5928;
+}
 .gig-guide {
   margin: 1%;
   text-align: center;
-  background-color: gray;
+  background-color: #17161E;
 }
 
 td {
@@ -167,6 +171,12 @@ h1 {
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover;
+  }
+}
+@media (max-width: 768px) {
+  .about-img {
+    height: 200px;
+
   }
 }
 
