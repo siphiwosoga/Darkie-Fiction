@@ -8,7 +8,9 @@ body {
 
 }
 /* TITLE PAGE PLUS NAVBAR */
-
+.carcap {
+  text-align: left;
+}
 .car-top {
   text-align: center;
   position: relative;
@@ -114,6 +116,7 @@ td {
   text-align: center;
   background-color: #17161E;
   color: white;
+  padding: 5%;
 
 }
 .c2aText {
@@ -161,16 +164,12 @@ h1 {
   .title-img {
     height: 50vh;
   }
-  .carousel-caption {
+  .carcap {
     text-align: center;
+
   }
 
 .sign {
   font-family: roboto;
   font-size: 15px;
-}
-@media (max-width: 1000px) {
-  .title-img {
-    height: 70vh;
-  }
 }
