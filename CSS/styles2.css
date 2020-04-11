@@ -119,6 +119,7 @@ td {
 .c2aText {
   color: white;
   margin: auto;
+   padding: 5%;
   vertical-align: middle;
 }
 .c2aText:hover {
@@ -154,14 +155,16 @@ h1 {
    }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 750px) {
   .about-img {
     height: 200px;
   }
   .title-img {
-    height: 50vh;
+    height: auto;
   }
-
+  .carousel-caption {
+    text-align: center;
+  }
 
 .sign {
   font-family: roboto;
