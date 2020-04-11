@@ -163,7 +163,7 @@ h1 {
     height: 200px;
   }
   .title-img {
-    height: 50vh;
+    height: 500px;
   }
   .carcap {
     text-align: center;
@@ -173,7 +173,4 @@ h1 {
 .sign {
   font-family: roboto;
   font-size: 15px;
-}
-@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3)and (orientation: landscape) {
-   .title-img {
-      height : 70vh; } }
+   }
