@@ -158,7 +158,7 @@ h1 {
    }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 750px) {
   .about-img {
     height: 200px;
   }
