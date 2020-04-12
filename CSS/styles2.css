@@ -158,6 +158,8 @@ h1 {
    }
 }
 
+
+
 @media (max-width: 750px) {
   .about-img {
     height: 200px;
@@ -174,3 +176,9 @@ h1 {
   font-family: roboto;
   font-size: 15px;
    }
+   
+@media (max-width: 768px) AND (orientation: landscape) {
+  .title-img {
+    height: auto;
+  }
+}
