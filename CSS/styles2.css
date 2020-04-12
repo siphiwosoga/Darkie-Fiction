@@ -165,7 +165,7 @@ h1 {
     height: 200px;
   }
   .title-img {
-    height: 500px;
+    height: 55vh;
   }
   .carcap {
     text-align: center;
@@ -179,6 +179,6 @@ h1 {
    
 @media (max-width: 768px) AND (orientation: landscape) {
   .title-img {
-    height: auto;
+    height: 110vh;
   }
 }
