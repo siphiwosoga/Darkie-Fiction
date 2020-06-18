@@ -4,7 +4,9 @@
 .imageM {
   display: none;
 }
-
+.newscard {
+  padding: 5%;
+}
 body {
   font-family: 'Alfa Slab One', cursive;
 
@@ -46,8 +48,9 @@ height: auto;
   position: absolute;
 
 }
-
-
+#news {
+  background-color: #17161E;
+}
 
 /* ABOUT */
 #about {
