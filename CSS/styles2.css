@@ -1,8 +1,18 @@
-.image2{
-   display: none;
-}
-.imageM {
+.images2 {
   display: none;
+}
+
+
+@media only screen and (max-width: 768px){
+     .image1{
+     display: none;
+   }
+
+
+   .images2{
+     display: block;
+      width: 100%;
+   }
 }
 .newscard {
   padding: 5%;
@@ -115,6 +125,7 @@ height: auto;
 .CSI {
   background-color: #FB5928;
 }
+
 .gig-guide {
   margin: 1%;
   text-align: center;
@@ -164,10 +175,9 @@ h1 {
      display: none;
    }
 
-  }
-   .image2{
+   .images2{
      display: block;
-     
+
    }
 }
 
