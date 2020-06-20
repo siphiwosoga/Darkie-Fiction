@@ -6,6 +6,7 @@
 @media only screen and (max-width: 768px){
      .image1{
      display: none;
+
    }
 
 
@@ -46,14 +47,18 @@ body {
   background-color: #FB5928;
 }
 .streampic {
-  height: 50%;
-  width: 50%;
+  height: 80%;
+  width: 80%;
   padding-bottom: 5%;
 }
 .menu {
   width: 200px;
   text-align: center;
 
+}
+.newsbtn {
+  background-color: #FB5928;
+  color: white;
 }
 .title-img {
 position: static;
