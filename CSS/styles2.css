@@ -1,3 +1,7 @@
+
+h1 {
+  color: white;
+}
 .images2 {
   display: none;
 }
@@ -78,7 +82,7 @@ height: auto;
 
 /* ABOUT */
 #about {
-  padding: 5% 14%;
+  padding: 5% 10%;
   background-color: #17161E;
   color: white;
 
@@ -88,7 +92,7 @@ height: auto;
 
   margin: auto;
   padding: 5% 0;
-  text-align: center;
+  text-align: justify;
 
   font-size: 20px;
 }
@@ -117,7 +121,7 @@ height: auto;
 }
 
 .about-img {
-  height: 300px;
+  height: 80%;
   display: block;
   margin: auto;
   border-radius: 100%;
