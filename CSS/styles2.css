@@ -1,3 +1,6 @@
+.linebr {
+  display: none;
+}
 .about-textM {
   margin: auto;
 
@@ -120,6 +123,8 @@ height: auto;
   height: 100%;
 }
 
+
+
 .about-img {
   height: 80%;
   display: block;
@@ -130,7 +135,7 @@ height: auto;
   background-color: #17161E;
   padding: 2%;
   color: white;
-  
+
 }
 .CSI {
   background-color: #FB5928;
@@ -187,7 +192,10 @@ h1 {
 
    .images2{
      display: block;
+   }
 
+   .linebr {
+     display: block;
    }
 }
 
