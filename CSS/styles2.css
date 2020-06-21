@@ -7,20 +7,7 @@ h1 {
 }
 
 
-@media only screen and (max-width: 768px){
-     .image1{
-     display: none;
-   }
 
-.about-text {
-  text-align: center;
-}
-
-   .images2{
-     display: block;
-      width: 100%;
-   }
-}
 .newscard {
   padding: 5%;
 }
@@ -208,4 +195,18 @@ h1 {
 .sign {
   font-family: roboto;
   font-size: 15px;
+}
+
+@media only screen and (max-width: 768px){
+     .image1{
+     display: none;
+   }
+.about-text {
+  text-align: center;
+}
+
+   .images2{
+     display: block;
+      width: 100%;
+   }
 }
