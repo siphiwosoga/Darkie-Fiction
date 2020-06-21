@@ -1,3 +1,17 @@
+.about-textM {
+  margin: auto;
+
+  text-align: center;
+  padding: auto;
+  font-size: 20px;
+}
+
+.abt-txtDF {
+  margin: auto;
+  text-align: center;
+  padding: auto;
+  font-size: 30px;
+}
 
 .images2 {
   display: none;
@@ -116,6 +130,7 @@ height: auto;
   background-color: #17161E;
   padding: 2%;
   color: white;
+  
 }
 .CSI {
   background-color: #FB5928;
