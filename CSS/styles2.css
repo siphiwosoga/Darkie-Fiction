@@ -10,9 +10,11 @@ h1 {
 @media only screen and (max-width: 768px){
      .image1{
      display: none;
-
    }
 
+.about-text {
+  text-align: center;
+}
 
    .images2{
      display: block;
